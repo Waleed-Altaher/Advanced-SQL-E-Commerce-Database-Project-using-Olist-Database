@@ -151,6 +151,9 @@ For the repeated columns, we had the location details (city, state and zip_code)
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/94df102c-54df-4f91-9c1e-c5896e7aa125)
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/e4a7c6ac-aaaa-4f63-9c51-aa2ebd7257dc)
 
+We also had....
+![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/7cf0dea2-0964-42c8-b4ac-5411ad583b5c)
+
 For the important missing values, we added them maintaining the data integrity
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/73231804-0ddb-4c98-96ea-45039a9ece37)
 
