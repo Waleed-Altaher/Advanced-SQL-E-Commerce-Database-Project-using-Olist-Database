@@ -151,7 +151,7 @@ For the repeated columns, we had the location details (city, state and zip_code)
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/94df102c-54df-4f91-9c1e-c5896e7aa125)
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/e4a7c6ac-aaaa-4f63-9c51-aa2ebd7257dc)
 
-We also had....
+Also, the product catogry name table had two columns: product_category_name and its translation. The product_category_name column is already in the olist_product table so we moved the product_category_name_english column in the product table as well and by this, the product category name table became no longer needed
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/7cf0dea2-0964-42c8-b4ac-5411ad583b5c)
 
 For the important missing values, we added them maintaining the data integrity
