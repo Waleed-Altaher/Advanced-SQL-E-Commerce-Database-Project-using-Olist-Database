@@ -58,7 +58,7 @@ This dataset includes 9 CSV files as follows:
    
     d. seller_id: unique identifier for the seller who listed the product
    
-    e. shipping_limit_date: date and time when the seller has to ship the product price: the price of the              product
+    e. shipping_limit_date: date and time when the seller has to ship the product price: the price of the product
    
     f. freight_value: shipping fee for the product
    
@@ -126,17 +126,26 @@ This dataset includes 9 CSV files as follows:
   
 # 2. Project Stages
 
-# 2.1 Data Cleansing
+# 2.1 Entity Relationship diagram (ERD) Creation
+
+![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/b15ac5d3-5125-4b08-a033-d215f4186d3b)
+
+# 2.2 Mapping and Normalization
+
+![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/04e60f58-3e3f-4b57-862f-eb45e4260ab9)
+
+
+# 2.3 Data Cleansing
 
 During our exploration of the dataset, several elements were identified that could hinder effective analysis due to redundancy and lack of relevance. These elements include:
 
-Null Values
+1- Null Values
 
-Not Needed Columns
+2- Not Needed Columns
 
-Repeated Columns
+3- Repeated Columns
 
-Important Missing Values
+4- Important Missing Values
 
 Below are samples of what we used to handle each of them:
 
@@ -145,17 +154,25 @@ For the null values, we replaced them with No Data
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/8952e3d9-674f-4042-870d-ecaad8efb2db)
 
 For the not needed columns, we deleted them from thier tables (the 4 columns title, message, creation_date and answer_timestamp were not needed in our project)
+
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/5612d7c9-8322-4d26-9526-1b107ec5b45a)
 
 For the repeated columns, we had the location details (city, state and zip_code) repeated for both customer and seller tables so, we created a new table named region, added all the need location details in it and related between it and the other tables with an FK
+
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/94df102c-54df-4f91-9c1e-c5896e7aa125)
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/e4a7c6ac-aaaa-4f63-9c51-aa2ebd7257dc)
 
 Also, the product catogry name table had two columns: product_category_name and its translation. The product_category_name column is already in the olist_product table so we moved the product_category_name_english column in the product table as well and by this, the product category name table became no longer needed
+
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/7cf0dea2-0964-42c8-b4ac-5411ad583b5c)
 
 For the important missing values, we added them maintaining the data integrity
+
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/73231804-0ddb-4c98-96ea-45039a9ece37)
+
+# 2.4 Data Analysis
+
+
 
 
 
