@@ -148,7 +148,8 @@ For the not needed columns, we deleted them from thier tables (the 4 columns tit
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/5612d7c9-8322-4d26-9526-1b107ec5b45a)
 
 For the repeated columns, we had the location details (city, state and zip_code) repeated for both customer and seller tables so, we created a new table named region, added all the need location details in it and related between it and the other tables with an FK
-
+![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/94df102c-54df-4f91-9c1e-c5896e7aa125)
+![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/e4a7c6ac-aaaa-4f63-9c51-aa2ebd7257dc)
 
 For the important missing values, we added them maintaining the data integrity
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/73231804-0ddb-4c98-96ea-45039a9ece37)
