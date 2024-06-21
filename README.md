@@ -170,7 +170,42 @@ For the important missing values, we added them maintaining the data integrity
 
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/73231804-0ddb-4c98-96ea-45039a9ece37)
 
-# 2.4 Data Analysis
+# 2.2 Physical Schema Creation
+
+![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/5e476357-eee5-47d4-a4c6-f8e33add0943)
+
+
+
+# 2.5 Data Analysis
+
+In this stage, we used SQL to answer business questions and manipulate data in a way that serve the business, all the questions are below and all the queries are in 'DataAnalysis.sql' file:
+
+1- What is the distribution of seller ratings on Olist, and how does this impact sales performance?
+
+2- How many customers have made repeat purchases on Olist?
+
+3- What is the average customer rating for products sold on Olist, and how does this impact sales performance?
+
+4- What are the top 10 popular product categories on Olist, and what are their sales volumes?
+
+5- What is the average order value (AOV) on Olist, and how does this vary by product category?
+
+6- Create view to show Which product categories have the highest profit margins on Olist, and how can the company increase 
+profitability across different categories?
+
+7- Create trigger to prevent any one to update or change price on table olist_order_items and return  
+username , ModifiedDate and old value and newvalue of price
+
+8- Create trigger to prevent any one to update or change payment value on table olist_order_payments
+and return username, ModifiedDate and old value and newvalue
+
+9- Create a stored procedure to get best sellers based on some criteria like last number of days, number of products, the seller list for customers, number od orders sold, and average scores of orders.
+
+10- Create a function to get the number of products sold by category and city
+
+11- Create a view to get best customers by revenue
+
+
 
 
 
