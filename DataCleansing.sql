@@ -171,3 +171,7 @@ DROP TABLE product_category_name_translation
 --Excluding the not needed columns from table olist_sellers
 ALTER TABLE olist_sellers
 DROP COLUMN seller_city, seller_state, seller_zip_code_prefix;
+
+--Excluding the not needed columns from table olist_products
+ALTER TABLE olist_products
+DROP COLUMN product_description_length, product_photos_qty, product_weight_g, product_length_cm, product_height_cm, product_width_cm, product_name_length
