@@ -128,11 +128,11 @@ This dataset includes 9 CSV files as follows:
 
 # 2.1 Entity Relationship diagram (ERD) Creation
 
-![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/ca1759d1-e630-4729-91d3-be00a165a388)
+![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/0fc08cae-9454-4553-8415-06451caad022)
 
 # 2.2 Mapping and Normalization
 
-![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/2c689374-c3a7-4758-8269-41912b888d93)
+![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/588e1cdc-45e9-45a9-b5e5-b6325ea12873)
 
 
 # 2.3 Data Cleansing
