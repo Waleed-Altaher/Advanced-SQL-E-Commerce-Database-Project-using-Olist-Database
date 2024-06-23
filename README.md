@@ -170,7 +170,7 @@ For the important missing values, we added them maintaining the data integrity
 
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/73231804-0ddb-4c98-96ea-45039a9ece37)
 
-# 2.2 Physical Schema Creation
+# 2.4 Physical Schema Creation
 
 ![image](https://github.com/israkhaled1109/Advanced-SQL-E-Commerce-Database-Project-using-Olist-Database/assets/171425036/5e476357-eee5-47d4-a4c6-f8e33add0943)
 
