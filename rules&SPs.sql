@@ -28,3 +28,14 @@ update olist_order_items
 set product_id = @productid 
 where orderid = @order_ID and order_item_id = @ord_item 
 
+  
+create nonclustered index category_index
+on olist_products(product_category_name_english)
+
+  
+alter table olist_order_items add constraint c1  check(price>0)
+
+  
+create rule r1 as @x>=1 and @x<=5
+sp_bindrule r1, 'olist_order_reviews.review_score'
+
