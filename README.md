@@ -7,7 +7,7 @@ This project discusses Olist database, Olist is a Brazilian e-commerce platform 
 The Olist sales dataset available on Kaggle is a collection of anonymized data about orders placed on the Olist platform between January 2017 and August 2018. 
 
 This dataset includes 9 CSV files as follows:
-<details open>
+<details>
   <summary> 1. olist_customers_dataset.csv: </summary>
    
          a. customer_id: unique identifier for each customer
@@ -22,7 +22,7 @@ This dataset includes 9 CSV files as follows:
 </details>
 
   
-<details open>
+<details>
   <summary> 2. olist_geolocation_dataset.csv:  </summary>
      
       a. geolocation_zip_code_prefix: zip code prefix for the location
@@ -36,7 +36,7 @@ This dataset includes 9 CSV files as follows:
       e. geolocation_state: state of the location
 </details>
    
-<details open>
+<details>
   <summary> 3. olist_orders_dataset.csv: </summary>
    
     a. order_id: unique identifier for each order
@@ -57,7 +57,7 @@ This dataset includes 9 CSV files as follows:
     
 </details>
    
-<details open>
+<details>
   <summary> 4. olist_order_items_dataset.csv: </summary>
   
     a. order_id: unique identifier for the order
@@ -73,7 +73,7 @@ This dataset includes 9 CSV files as follows:
     f. freight_value: shipping fee for the product
 </details>
 
-<details open>
+<details>
   <summary> 5. olist_order_payments_dataset.csv: </summary>
     
     a. order_id: unique identifier for the order
@@ -87,7 +87,7 @@ This dataset includes 9 CSV files as follows:
     e. payment_value: the value of the payment made
 </details>
    
-<details open>
+<details>
   <summary> 6. olist_products_dataset.csv: </summary>
     
     a. product_id: unique identifier for each product
@@ -109,7 +109,7 @@ This dataset includes 9 CSV files as follows:
     i. product_width_cm: width of the product in centimeters
 </details>
     
-<details open>
+<details>
   <summary> 7. olist_sellers_dataset.csv: </summary>
   
     a. seller_id: unique identifier for each seller
@@ -121,7 +121,7 @@ This dataset includes 9 CSV files as follows:
     d. seller_state: state where the seller is located
 </details>
    
-<details open>
+<details>
   <summary> 8. product_category_name_translation.csv: </summary>
    
     a. product_category_name: name of the product category in Portuguese
@@ -130,7 +130,7 @@ This dataset includes 9 CSV files as follows:
 
 </details>
 
-<details open>
+<details>
   <summary> 9. olist_order_reviews_dataset.csv: </summary>
   
     a. review_id: unique identifier for each review
