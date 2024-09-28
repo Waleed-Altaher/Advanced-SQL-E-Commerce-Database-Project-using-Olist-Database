@@ -7,9 +7,10 @@ This project discusses Olist database, Olist is a Brazilian e-commerce platform 
 The Olist sales dataset available on Kaggle is a collection of anonymized data about orders placed on the Olist platform between January 2017 and August 2018. 
 
 This dataset includes 9 CSV files as follows:
-1. olist_customers_dataset.csv:
+<details open>
+  <summary> 1. olist_customers_dataset.csv: </summary>
    
-    a. customer_id: unique identifier for each customer
+     a. customer_id: unique identifier for each customer
   
     b. customer_unique_id: unique identifier for each customer (anonymized)
     
@@ -18,6 +19,9 @@ This dataset includes 9 CSV files as follows:
     d. customer_city: the city where the customer is located.
     
     e. customer_state: state where the customer is located
+    
+</details>
+
   
 2. olist_geolocation_dataset.csv:
      
