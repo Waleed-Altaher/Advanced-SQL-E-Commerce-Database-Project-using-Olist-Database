@@ -10,32 +10,34 @@ This dataset includes 9 CSV files as follows:
 <details open>
   <summary> 1. olist_customers_dataset.csv: </summary>
    
-     a. customer_id: unique identifier for each customer
+         a. customer_id: unique identifier for each customer
   
-    b. customer_unique_id: unique identifier for each customer (anonymized)
+         b. customer_unique_id: unique identifier for each customer (anonymized)
     
-    c. customer_zip_code_prefix: zip code prefix of the customer’s address
+         c. customer_zip_code_prefix: zip code prefix of the customer’s address
     
-    d. customer_city: the city where the customer is located.
+         d. customer_city: the city where the customer is located.
     
-    e. customer_state: state where the customer is located
-    
+         e. customer_state: state where the customer is located
 </details>
 
   
-2. olist_geolocation_dataset.csv:
+<details open>
+  <summary> 2. olist_geolocation_dataset.csv:  </summary>
      
-    a. geolocation_zip_code_prefix: zip code prefix for the location
+      a. geolocation_zip_code_prefix: zip code prefix for the location
    
-    b. geolocation_lat: latitude of the location
+      b. geolocation_lat: latitude of the location
    
-    c. geolocation_lng: longitude of the location
+      c. geolocation_lng: longitude of the location
    
-    d. geolocation_city: city of the location
+      d. geolocation_city: city of the location
    
-    e. geolocation_state: state of the location
+      e. geolocation_state: state of the location
+</details>
    
-3. olist_orders_dataset.csv:
+<details open>
+  <summary> 3. olist_orders_dataset.csv: </summary>
    
     a. order_id: unique identifier for each order
    
@@ -51,9 +53,13 @@ This dataset includes 9 CSV files as follows:
    
     g. order_delivered_customer_date: date and time when the order was delivered to the customer
    
-    h. order_estimated_delivery_date: the estimated date when the order is expected to be delivered
+    h. order_estimated_delivery_date: the estimated date when the order is expected to be 
+    
+</details>
    
-4. olist_order_items_dataset.csv:
+<details open>
+  <summary> 4. olist_order_items_dataset.csv: </summary>
+  
     a. order_id: unique identifier for the order
    
     b. order_item_id: unique identifier for each item within an order
@@ -65,8 +71,10 @@ This dataset includes 9 CSV files as follows:
     e. shipping_limit_date: date and time when the seller has to ship the product price: the price of the product
    
     f. freight_value: shipping fee for the product
-   
-5. olist_order_payments_dataset.csv:
+</details>
+
+<details open>
+  <summary> 5. olist_order_payments_dataset.csv: </summary>
     
     a. order_id: unique identifier for the order
    
@@ -77,8 +85,10 @@ This dataset includes 9 CSV files as follows:
     d. payment_installments: number of installments in which the payment was made
    
     e. payment_value: the value of the payment made
+</details>
    
-6. olist_products_dataset.csv:
+<details open>
+  <summary> 6. olist_products_dataset.csv: </summary>
     
     a. product_id: unique identifier for each product
     
@@ -97,8 +107,11 @@ This dataset includes 9 CSV files as follows:
     h. product_height_cm: height of the product in centimeters
     
     i. product_width_cm: width of the product in centimeters
+</details>
     
-7. olist_sellers_dataset.csv:
+<details open>
+  <summary> 7. olist_sellers_dataset.csv: </summary>
+  
     a. seller_id: unique identifier for each seller
    
     b. seller_zip_code_prefix: zip code prefix for the seller’s location
@@ -106,15 +119,20 @@ This dataset includes 9 CSV files as follows:
     c. seller_city: the city where the seller is located
    
     d. seller_state: state where the seller is located
+</details>
    
-8. product_category_name_translation.csv:
+<details open>
+  <summary> 8. product_category_name_translation.csv: </summary>
    
     a. product_category_name: name of the product category in Portuguese
  
     b. product_category_name_english: name of the product category in English
- 
-9. olist_order_reviews_dataset.csv:
 
+</details>
+
+<details open>
+  <summary> 9. olist_order_reviews_dataset.csv: </summary>
+  
     a. review_id: unique identifier for each review
     
     b. order_id: unique identifier for the order that the review is associated with
@@ -126,7 +144,7 @@ This dataset includes 9 CSV files as follows:
     e. review_creation_date: date and time when the review was created
     
     f. review_answer_timestamp: date and time when the seller responded to the review (if applicable)
-
+</details>
   
 # 2. Project Stages
 
